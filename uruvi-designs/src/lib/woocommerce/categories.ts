@@ -1,0 +1,49 @@
+import { wooFetch } from "./client";
+import type { WooCategory } from "./types";
+
+// ============================================================
+// Categories API
+// ============================================================
+
+export async function getCategories(params: {
+  parent?: number;
+  hideEmpty?: boolean;
+  perPage?: number;
+} = {}): Promise<WooCategory[]> {
+  try {
+    return await wooFetch<WooCategory[]>("products/categories", {}, {
+      per_page: params.perPage || 100,
+      hide_empty: params.hideEmpty !== false,
+      ...(params.parent !== undefined ? { parent: params.parent } : {}),
+      orderby: "menu_order",
+      order: "asc",
+    });
+  } catch {
+    return [];
+  }
+}
+
+export async function getCategoryBySlug(slug: string): Promise<WooCategory | null> {
+  try {
+    const cats = await wooFetch<WooCategory[]>("products/categories", {}, { slug });
+    return cats[0] || null;
+  } catch {
+    return null;
+  }
+}
+
+export async function getRootCategories(): Promise<WooCategory[]> {
+  return getCategories({ parent: 0, hideEmpty: true });
+}
+
+// Map of well-known category slugs to display info
+export const CATEGORY_MAP: Record<string, { label: string; icon: string }> = {
+  dresses: { label: "Dresses", icon: "👗" },
+  kurtas: { label: "Kurtas", icon: "🥻" },
+  "kurta-sets": { label: "Kurta Sets", icon: "✨" },
+  sarees: { label: "Sarees", icon: "🌸" },
+  "co-ord-sets": { label: "Co-ord Sets", icon: "💫" },
+  tops: { label: "Tops", icon: "👕" },
+  "bottom-wear": { label: "Bottom Wear", icon: "👖" },
+  "occasion-wear": { label: "Occasion Wear", icon: "🌟" },
+};
