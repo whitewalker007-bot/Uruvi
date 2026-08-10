@@ -6,6 +6,7 @@ import { WishlistProvider } from "@/contexts/WishlistContext";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import CartDrawer from "@/components/cart/CartDrawer";
+import Preloader from "@/components/ui/Preloader";
 import { Toaster } from "react-hot-toast";
 
 const cormorant = Cormorant_Garamond({
@@ -93,6 +94,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable}`}>
       <body className="min-h-screen flex flex-col bg-[#FAFAF8]">
+        <Preloader />
         <CartProvider>
           <WishlistProvider>
             <Header />
