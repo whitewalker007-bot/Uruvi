@@ -24,7 +24,7 @@ const USP_ITEMS = [
 export default function USPStrip() {
   return (
     <section className="bg-[#F5F3EF] border-y border-[#E8E4DC]">
-      <div className="container-uruvi py-10 lg:py-12">
+      <div className="container-urvi py-10 lg:py-12">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {USP_ITEMS.map((item, i) => (
             <div key={i} className="flex flex-col sm:flex-row items-start sm:items-center gap-3 lg:gap-4">

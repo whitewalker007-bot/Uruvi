@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <div className="bg-[#FAFAF8] min-h-screen flex items-center justify-center py-20">
-      <div className="container-uruvi max-w-md text-center">
+      <div className="container-urvi max-w-md text-center">
         <span className="font-serif text-7xl font-bold text-[#C9A84C] block mb-2">404</span>
         <span className="section-label">Page Not Found</span>
         <h1 className="font-serif text-3xl font-semibold text-[#1A1A1A] mb-4">

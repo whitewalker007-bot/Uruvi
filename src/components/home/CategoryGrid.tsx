@@ -20,7 +20,7 @@ export default function CategoryGrid() {
 
   return (
     <section className="section-py bg-[#F5F3EF]">
-      <div className="container-uruvi">
+      <div className="container-urvi">
         <div className="section-header">
           <span className="section-label">Browse</span>
           <h2 className="section-title">Shop By Category</h2>

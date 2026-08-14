@@ -22,7 +22,7 @@ export default function LoginPage() {
 
   return (
     <div className="bg-[#FAFAF8] min-h-screen py-16">
-      <div className="container-uruvi max-w-md">
+      <div className="container-urvi max-w-md">
         <div className="bg-white p-8 border border-[#E8E4DC] shadow-soft text-center">
           <span className="section-label">Welcome Back</span>
           <h1 className="font-serif text-3xl font-semibold text-[#1A1A1A] mb-2">Sign In</h1>

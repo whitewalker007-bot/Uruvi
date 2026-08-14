@@ -118,7 +118,7 @@ export default function Header() {
             : "bg-[#FAFAF8] border-b border-[#E8E4DC]"
         )}
       >
-        <div className="container-uruvi">
+        <div className="container-urvi">
           {/* Top Row: Absolutely Centered Logo + Heading */}
           <div className="relative flex items-center justify-between py-4 min-h-[76px] md:min-h-[88px]">
 
@@ -138,14 +138,14 @@ export default function Header() {
               <Link href="/" className="pointer-events-auto flex items-center gap-3 md:gap-4 group">
                 <Image
                   src="/logo.png"
-                  alt="Uruvi Designs Logo"
+                  alt="Urvi Designs Logo"
                   width={56}
                   height={56}
                   className="w-10 h-10 md:w-13 md:h-13 object-contain rounded-full transition-transform duration-300 group-hover:scale-105"
                   priority
                 />
                 <h1 className="font-serif font-bold text-xl md:text-2xl lg:text-3xl tracking-[0.18em] uppercase text-[#1A1A1A] group-hover:text-[#C9A84C] transition-colors whitespace-nowrap leading-none">
-                  URUVI DESIGNS
+                  URVI DESIGNS
                 </h1>
               </Link>
             </div>

@@ -67,7 +67,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
     <div className="fixed inset-0 z-50 animate-fade-in">
       <div className="absolute inset-0 bg-[#1A1A1A]/80 backdrop-blur-sm" onClick={onClose} />
       <div className="relative z-10 bg-[#FAFAF8] shadow-strong">
-        <div className="container-uruvi py-5">
+        <div className="container-urvi py-5">
           <form onSubmit={handleSubmit} className="flex items-center gap-4">
             <Search size={22} className="text-[#9A9A9A] flex-shrink-0" />
             <input
@@ -87,7 +87,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
         {/* Results */}
         {(results.length > 0 || isLoading) && (
           <div className="border-t border-[#E8E4DC] bg-[#FAFAF8]">
-            <div className="container-uruvi py-6">
+            <div className="container-urvi py-6">
               {isLoading ? (
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
                   {[...Array(6)].map((_, i) => (

@@ -18,7 +18,7 @@ export function WishlistProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     try {
-      const stored = localStorage.getItem("uruvi_wishlist");
+      const stored = localStorage.getItem("urvi_wishlist") || localStorage.getItem("uruvi_wishlist");
       if (stored) setItems(JSON.parse(stored));
     } catch {}
   }, []);
@@ -26,7 +26,7 @@ export function WishlistProvider({ children }: { children: React.ReactNode }) {
   const persist = (newItems: WishlistItem[]) => {
     setItems(newItems);
     try {
-      localStorage.setItem("uruvi_wishlist", JSON.stringify(newItems));
+      localStorage.setItem("urvi_wishlist", JSON.stringify(newItems));
     } catch {}
   };
 
@@ -34,7 +34,7 @@ export function WishlistProvider({ children }: { children: React.ReactNode }) {
     setItems((prev) => {
       if (prev.some((i) => i.id === item.id)) return prev;
       const next = [...prev, item];
-      localStorage.setItem("uruvi_wishlist", JSON.stringify(next));
+      localStorage.setItem("urvi_wishlist", JSON.stringify(next));
       return next;
     });
   }, []);
@@ -42,7 +42,7 @@ export function WishlistProvider({ children }: { children: React.ReactNode }) {
   const removeFromWishlist = useCallback((id: number) => {
     setItems((prev) => {
       const next = prev.filter((i) => i.id !== id);
-      localStorage.setItem("uruvi_wishlist", JSON.stringify(next));
+      localStorage.setItem("urvi_wishlist", JSON.stringify(next));
       return next;
     });
   }, []);

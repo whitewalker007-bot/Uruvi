@@ -17,7 +17,7 @@ const TESTIMONIALS = [
     location: "Bengaluru",
     rating: 5,
     review:
-      "I discovered Uruvi Designs while looking for something special for Onam. The saree I ordered was exactly as pictured — beautiful handwork and delivered in lovely packaging. Will definitely shop again.",
+      "I discovered Urvi Designs while looking for something special for Onam. The saree I ordered was exactly as pictured — beautiful handwork and delivered in lovely packaging. Will definitely shop again.",
     product: "Handwoven Cotton Saree",
   },
   {
@@ -25,7 +25,7 @@ const TESTIMONIALS = [
     location: "Chennai",
     rating: 5,
     review:
-      "The co-ord set is absolutely stunning. Perfect for both office and casual outings. Uruvi Designs understands what modern Indian women want — effortless style without compromising on tradition.",
+      "The co-ord set is absolutely stunning. Perfect for both office and casual outings. Urvi Designs understands what modern Indian women want — effortless style without compromising on tradition.",
     product: "Co-ord Set",
   },
   {
@@ -48,7 +48,7 @@ export default function Testimonials() {
 
   return (
     <section className="section-py bg-[#1A1A1A]">
-      <div className="container-uruvi max-w-3xl text-center">
+      <div className="container-urvi max-w-3xl text-center">
         <span className="section-label">Reviews</span>
         <h2 className="font-serif text-white text-[clamp(1.75rem,3.5vw,2.75rem)] mb-12">
           Loved By You

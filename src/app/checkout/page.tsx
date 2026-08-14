@@ -51,7 +51,7 @@ export default function CheckoutPage() {
 
   if (items.length === 0) {
     return (
-      <div className="container-uruvi py-20 text-center">
+      <div className="container-urvi py-20 text-center">
         <h1 className="font-serif text-3xl mb-4">Your bag is empty</h1>
         <p className="text-sm text-[#5C5C5C] mb-6">Add products to your cart before proceeding to checkout.</p>
         <Link href="/shop" className="btn btn-primary">
@@ -63,11 +63,11 @@ export default function CheckoutPage() {
 
   return (
     <div className="bg-[#FAFAF8] min-h-screen py-10">
-      <div className="container-uruvi">
+      <div className="container-urvi">
         {/* Header */}
         <div className="flex items-center justify-between pb-6 mb-8 border-b border-[#E8E4DC]">
           <Link href="/" className="font-serif text-2xl font-semibold text-[#1A1A1A]">
-            URUVI DESIGNS
+            URVI DESIGNS
           </Link>
           <div className="flex items-center gap-1 text-xs text-[#5C5C5C]">
             <Lock size={14} className="text-[#C9A84C]" /> Secure Checkout

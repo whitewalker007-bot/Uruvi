@@ -40,7 +40,7 @@ export default async function BestSellers() {
 
   return (
     <section className="section-py bg-[#F5F3EF]">
-      <div className="container-uruvi">
+      <div className="container-urvi">
         <div className="flex items-end justify-between mb-10">
           <div>
             <span className="section-label">Favourites</span>

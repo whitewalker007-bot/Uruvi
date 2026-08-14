@@ -13,10 +13,10 @@ const INSTAGRAM_IMAGES = [
 export default function InstagramSection() {
   return (
     <section className="section-py bg-[#F5F3EF]">
-      <div className="container-uruvi">
+      <div className="container-urvi">
         <div className="section-header mb-8">
           <span className="section-label">Instagram</span>
-          <h2 className="section-title">Follow The Uruvi Story</h2>
+          <h2 className="section-title">Follow The Urvi Story</h2>
           <p className="section-subtitle">
             A curated world of style, inspiration, and behind-the-scenes moments.
           </p>
@@ -28,7 +28,7 @@ export default function InstagramSection() {
             <div key={i} className="group relative aspect-square overflow-hidden">
               <Image
                 src={src}
-                alt={`Uruvi Designs Instagram ${i + 1}`}
+                alt={`Urvi Designs Instagram ${i + 1}`}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 640px) 33vw, 16vw"

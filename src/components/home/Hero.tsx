@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src={FASHION_IMAGES.hero1}
-          alt="Uruvi Designs — Everyday Elegance"
+          alt="Urvi Designs — Everyday Elegance"
           fill
           className="object-cover object-center"
           priority
@@ -20,7 +20,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container-uruvi h-full flex items-center" style={{ minHeight: "90vh" }}>
+      <div className="relative z-10 container-urvi h-full flex items-center" style={{ minHeight: "90vh" }}>
         <div className="max-w-xl py-20">
           {/* Label */}
           <p className="text-[0.625rem] font-semibold tracking-[0.22em] uppercase text-[#C9A84C] mb-6 animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>

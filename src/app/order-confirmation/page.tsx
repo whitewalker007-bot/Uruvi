@@ -10,7 +10,7 @@ export default async function OrderConfirmationPage({ searchParams }: OrderConfi
 
   return (
     <div className="bg-[#FAFAF8] min-h-screen py-16">
-      <div className="container-uruvi max-w-xl text-center">
+      <div className="container-urvi max-w-xl text-center">
         <div className="w-16 h-16 bg-[#2D7D46]/10 rounded-full flex items-center justify-center mx-auto mb-6 text-[#2D7D46]">
           <CheckCircle2 size={36} />
         </div>

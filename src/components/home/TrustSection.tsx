@@ -26,7 +26,7 @@ const TRUST_ITEMS = [
 export default function TrustSection() {
   return (
     <section className="section-py bg-[#FAFAF8] border-y border-[#E8E4DC]">
-      <div className="container-uruvi">
+      <div className="container-urvi">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {TRUST_ITEMS.map(({ icon: Icon, title, desc }) => (
             <div key={title} className="text-center">

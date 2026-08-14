@@ -13,7 +13,7 @@ const OCCASIONS = [
 export default function OccasionSection() {
   return (
     <section className="section-py bg-[#FAFAF8]">
-      <div className="container-uruvi">
+      <div className="container-urvi">
         <div className="section-header">
           <span className="section-label">Every Occasion</span>
           <h2 className="section-title">Shop By Occasion</h2>

@@ -126,7 +126,7 @@ export default async function NewArrivals({ products }: NewArrivalsProps) {
 
   return (
     <section className="section-py bg-[#FAFAF8]">
-      <div className="container-uruvi">
+      <div className="container-urvi">
         {/* Header */}
         <div className="flex items-end justify-between mb-10">
           <div>

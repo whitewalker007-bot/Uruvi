@@ -24,7 +24,7 @@ export default function ContactPage() {
 
   return (
     <div className="bg-[#FAFAF8] min-h-screen py-12">
-      <div className="container-uruvi">
+      <div className="container-urvi">
         {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-xs text-[#9A9A9A] mb-8">
           <Link href="/" className="hover:text-[#1A1A1A]">Home</Link>
@@ -47,7 +47,7 @@ export default function ContactPage() {
           {/* Contact Details Left */}
           <div className="lg:col-span-5 space-y-8">
             <div className="bg-white p-8 border border-[#E8E4DC] space-y-6">
-              <h2 className="font-serif text-2xl font-semibold text-[#1A1A1A]">URUVI DESIGNS</h2>
+              <h2 className="font-serif text-2xl font-semibold text-[#1A1A1A]">URVI DESIGNS</h2>
 
               <div className="space-y-4 text-sm text-[#5C5C5C]">
                 <div className="flex gap-3">

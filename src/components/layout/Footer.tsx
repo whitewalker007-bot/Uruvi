@@ -30,7 +30,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#1A1A1A] text-white">
       {/* Main footer */}
-      <div className="container-uruvi py-16 lg:py-20">
+      <div className="container-urvi py-16 lg:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
 
           {/* Brand column */}
@@ -38,15 +38,15 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-3 mb-5">
               <Image
                 src="/logo.png"
-                alt="Uruvi Designs"
+                alt="Urvi Designs"
                 width={52}
                 height={52}
                 className="w-12 h-12 object-contain rounded-full"
               />
-              <span className="font-serif text-xl tracking-wide text-white">URUVI DESIGNS</span>
+              <span className="font-serif text-xl tracking-wide text-white">URVI DESIGNS</span>
             </Link>
             <p className="text-[#9A9A9A] text-sm leading-relaxed mb-6 max-w-[300px]">
-              Uruvi Designs brings together contemporary fashion and timeless elegance, creating thoughtfully designed pieces for the modern wardrobe.
+              Urvi Designs brings together contemporary fashion and timeless elegance, creating thoughtfully designed pieces for the modern wardrobe.
             </p>
 
             {/* Social */}
@@ -163,9 +163,9 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-[#2A2A2A]">
-        <div className="container-uruvi py-5 text-center sm:text-left">
+        <div className="container-urvi py-5 text-center sm:text-left">
           <p className="text-xs text-[#5C5C5C]">
-            © {new Date().getFullYear()} Uruvi Designs. All Rights Reserved.
+            © {new Date().getFullYear()} Urvi Designs. All Rights Reserved.
           </p>
         </div>
       </div>

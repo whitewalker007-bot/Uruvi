@@ -77,7 +77,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         {/* Header */}
         <div className="flex items-center justify-between px-5 py-4 border-b border-[#E8E4DC]">
           <Link href="/" onClick={onClose}>
-            <Image src="/logo.png" alt="Uruvi Designs" width={40} height={40} className="w-9 h-9 object-contain" />
+            <Image src="/logo.png" alt="Urvi Designs" width={40} height={40} className="w-9 h-9 object-contain" />
           </Link>
           <button onClick={onClose} className="p-1 text-[#1A1A1A] hover:text-[#C9A84C] transition-colors" aria-label="Close menu">
             <X size={22} />

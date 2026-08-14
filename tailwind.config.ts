@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // URUVI brand palette — derived from the black/gold logo
-        uruvi: {
+        // URVI brand palette — derived from the black/gold logo
+        urvi: {
           ivory: "#FAFAF8",
           surface: "#F5F3EF",
           warm: "#EDE9E0",

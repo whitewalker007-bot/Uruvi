@@ -42,7 +42,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   // Persist to localStorage
   useEffect(() => {
     try {
-      const stored = localStorage.getItem("uruvi_cart");
+      const stored = localStorage.getItem("urvi_cart") || localStorage.getItem("uruvi_cart");
       if (stored) setItems(JSON.parse(stored));
     } catch {}
   }, []);
@@ -50,7 +50,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const persist = (newItems: CartItem[]) => {
     setItems(newItems);
     try {
-      localStorage.setItem("uruvi_cart", JSON.stringify(newItems));
+      localStorage.setItem("urvi_cart", JSON.stringify(newItems));
     } catch {}
   };
 
@@ -73,7 +73,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       } else {
         next = [...prev, { ...item, key: generateKey(item.productId, item.variationId) }];
       }
-      localStorage.setItem("uruvi_cart", JSON.stringify(next));
+      localStorage.setItem("urvi_cart", JSON.stringify(next));
       return next;
     });
     setIsOpen(true);
@@ -82,7 +82,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const removeItem = useCallback((key: string) => {
     setItems((prev) => {
       const next = prev.filter((i) => i.key !== key);
-      localStorage.setItem("uruvi_cart", JSON.stringify(next));
+      localStorage.setItem("urvi_cart", JSON.stringify(next));
       return next;
     });
   }, []);
@@ -91,7 +91,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     if (quantity <= 0) {
       setItems((prev) => {
         const next = prev.filter((i) => i.key !== key);
-        localStorage.setItem("uruvi_cart", JSON.stringify(next));
+        localStorage.setItem("urvi_cart", JSON.stringify(next));
         return next;
       });
       return;
@@ -100,13 +100,14 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       const next = prev.map((i) =>
         i.key === key ? { ...i, quantity: Math.min(quantity, i.maxStock || 99) } : i
       );
-      localStorage.setItem("uruvi_cart", JSON.stringify(next));
+      localStorage.setItem("urvi_cart", JSON.stringify(next));
       return next;
     });
   }, []);
 
   const clearCart = useCallback(() => {
     setItems([]);
+    localStorage.removeItem("urvi_cart");
     localStorage.removeItem("uruvi_cart");
   }, []);
 

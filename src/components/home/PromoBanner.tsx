@@ -8,14 +8,14 @@ export default function PromoBanner() {
     <section className="relative overflow-hidden" style={{ minHeight: "60vh" }}>
       <Image
         src={FASHION_IMAGES.promo}
-        alt="Shop Uruvi Designs"
+        alt="Shop Urvi Designs"
         fill
         className="object-cover object-center"
         sizes="100vw"
       />
       <div className="absolute inset-0 bg-black/45" />
 
-      <div className="relative z-10 container-uruvi h-full flex flex-col items-center justify-center text-center py-24 gap-6">
+      <div className="relative z-10 container-urvi h-full flex flex-col items-center justify-center text-center py-24 gap-6">
         <span className="text-[0.625rem] font-semibold tracking-[0.22em] uppercase text-[#C9A84C]">
           New Season
         </span>

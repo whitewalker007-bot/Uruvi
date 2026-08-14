@@ -26,47 +26,47 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Uruvi Designs — Contemporary Indian Fashion",
-    template: "%s | Uruvi Designs",
+    default: "Urvi Designs — Contemporary Indian Fashion",
+    template: "%s | Urvi Designs",
   },
   description:
-    "Discover contemporary Indian fashion at Uruvi Designs — thoughtfully crafted kurtas, sarees, dresses, and more. Premium quality clothing from Trivandrum, Kerala.",
+    "Discover contemporary Indian fashion at Urvi Designs — thoughtfully crafted kurtas, sarees, dresses, and more. Premium quality clothing from Trivandrum, Kerala.",
   keywords: [
     "Indian fashion",
     "contemporary kurta",
     "sarees",
     "ethnic wear",
     "women clothing",
-    "Uruvi Designs",
+    "Urvi Designs",
     "Trivandrum fashion",
     "Kerala boutique",
   ],
-  authors: [{ name: "Uruvi Designs" }],
-  creator: "Uruvi Designs",
-  publisher: "Uruvi Designs",
-  metadataBase: new URL(process.env.NEXTAUTH_URL || "https://uruvi.com"),
+  authors: [{ name: "Urvi Designs" }],
+  creator: "Urvi Designs",
+  publisher: "Urvi Designs",
+  metadataBase: new URL(process.env.NEXTAUTH_URL || "https://urvi.com"),
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: process.env.NEXTAUTH_URL || "https://uruvi.com",
-    siteName: "Uruvi Designs",
-    title: "Uruvi Designs — Contemporary Indian Fashion",
+    url: process.env.NEXTAUTH_URL || "https://urvi.com",
+    siteName: "Urvi Designs",
+    title: "Urvi Designs — Contemporary Indian Fashion",
     description:
-      "Contemporary silhouettes rooted in timeless Indian style. Shop kurtas, sarees, dresses, and more from Uruvi Designs, Trivandrum.",
+      "Contemporary silhouettes rooted in timeless Indian style. Shop kurtas, sarees, dresses, and more from Urvi Designs, Trivandrum.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Uruvi Designs — Contemporary Indian Fashion",
+        alt: "Urvi Designs — Contemporary Indian Fashion",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Uruvi Designs — Contemporary Indian Fashion",
+    title: "Urvi Designs — Contemporary Indian Fashion",
     description:
-      "Contemporary silhouettes rooted in timeless Indian style. Shop from Uruvi Designs.",
+      "Contemporary silhouettes rooted in timeless Indian style. Shop from Urvi Designs.",
     images: ["/og-image.jpg"],
   },
   robots: {

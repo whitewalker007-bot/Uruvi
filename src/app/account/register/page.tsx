@@ -26,9 +26,9 @@ export default function RegisterPage() {
 
   return (
     <div className="bg-[#FAFAF8] min-h-screen py-16">
-      <div className="container-uruvi max-w-md">
+      <div className="container-urvi max-w-md">
         <div className="bg-white p-8 border border-[#E8E4DC] shadow-soft text-center">
-          <span className="section-label">Join Uruvi</span>
+          <span className="section-label">Join Urvi</span>
           <h1 className="font-serif text-3xl font-semibold text-[#1A1A1A] mb-2">Create Account</h1>
           <p className="text-xs text-[#5C5C5C] mb-8">Sign up to enjoy seamless checkout and exclusive edits.</p>
 

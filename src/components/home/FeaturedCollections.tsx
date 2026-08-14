@@ -37,7 +37,7 @@ const COLLECTIONS = [
 export default function FeaturedCollections() {
   return (
     <section className="section-py bg-[#FAFAF8]">
-      <div className="container-uruvi">
+      <div className="container-urvi">
         {/* Header */}
         <div className="section-header">
           <span className="section-label">Collections</span>

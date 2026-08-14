@@ -52,7 +52,7 @@ export default function Preloader() {
           <div className="absolute -inset-2 rounded-full border border-[#C9A84C]/40 animate-ping" />
           <Image
             src="/logo.png"
-            alt="Uruvi Designs Logo"
+            alt="Urvi Designs Logo"
             width={84}
             height={84}
             className="w-18 h-18 md:w-22 md:h-22 object-contain rounded-full shadow-2xl relative z-10"
@@ -62,7 +62,7 @@ export default function Preloader() {
 
         {/* Brand Heading */}
         <h1 className="font-serif font-bold text-2xl md:text-3xl tracking-[0.25em] uppercase text-white mb-2">
-          URUVI DESIGNS
+          URVI DESIGNS
         </h1>
 
         {/* Subtitle */}

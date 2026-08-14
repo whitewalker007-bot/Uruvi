@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function ShippingPolicyPage() {
   return (
     <div className="bg-[#FAFAF8] min-h-screen py-12">
-      <div className="container-uruvi max-w-3xl">
+      <div className="container-urvi max-w-3xl">
         <div className="flex items-center gap-2 text-xs text-[#9A9A9A] mb-8">
           <Link href="/" className="hover:text-[#1A1A1A]">Home</Link>
           <span>/</span>
@@ -17,7 +17,7 @@ export default function ShippingPolicyPage() {
 
         <div className="space-y-6 text-sm text-[#5C5C5C] leading-relaxed">
           <p>
-            At <strong>URUVI DESIGNS</strong>, we strive to deliver your orders promptly and in pristine condition. All orders are carefully packaged and dispatched directly from our boutique studio in Trivandrum, Kerala.
+            At <strong>URVI DESIGNS</strong>, we strive to deliver your orders promptly and in pristine condition. All orders are carefully packaged and dispatched directly from our boutique studio in Trivandrum, Kerala.
           </p>
 
           <h2 className="font-serif text-xl font-semibold text-[#1A1A1A] pt-4">1. Order Processing Time</h2>

@@ -13,18 +13,18 @@ export default function Newsletter() {
     setLoading(true);
     // TODO: Connect to WooCommerce newsletter / Mailchimp
     await new Promise((r) => setTimeout(r, 800));
-    toast.success("Welcome to the Uruvi Circle! 🌸");
+    toast.success("Welcome to the Urvi Circle! 🌸");
     setEmail("");
     setLoading(false);
   };
 
   return (
     <section className="bg-[#F5F3EF] border-y border-[#E8E4DC]">
-      <div className="container-uruvi py-16 lg:py-20">
+      <div className="container-urvi py-16 lg:py-20">
         <div className="max-w-xl mx-auto text-center">
           <span className="section-label">Newsletter</span>
           <h2 className="font-serif text-[#1A1A1A] text-[clamp(1.75rem,3.5vw,2.75rem)] mb-4">
-            Stay in the Uruvi Circle
+            Stay in the Urvi Circle
           </h2>
           <p className="text-sm text-[#5C5C5C] mb-8 leading-relaxed">
             Be the first to discover new collections, exclusive edits, and special offers. No spam — only the good stuff.

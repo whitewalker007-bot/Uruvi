@@ -61,7 +61,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
   return (
     <div className="bg-[#FAFAF8] min-h-screen py-8 lg:py-12">
-      <div className="container-uruvi">
+      <div className="container-urvi">
         {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-xs text-[#9A9A9A] mb-6">
           <Link href="/" className="hover:text-[#1A1A1A]">Home</Link>

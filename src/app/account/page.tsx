@@ -29,7 +29,7 @@ export default function AccountDashboardPage() {
 
   return (
     <div className="bg-[#FAFAF8] min-h-screen py-12">
-      <div className="container-uruvi">
+      <div className="container-urvi">
         {/* Header */}
         <div className="flex items-center justify-between pb-6 mb-8 border-b border-[#E8E4DC]">
           <div>

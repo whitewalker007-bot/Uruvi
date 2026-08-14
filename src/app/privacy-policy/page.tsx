@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function PrivacyPolicyPage() {
   return (
     <div className="bg-[#FAFAF8] min-h-screen py-12">
-      <div className="container-uruvi max-w-3xl">
+      <div className="container-urvi max-w-3xl">
         <div className="flex items-center gap-2 text-xs text-[#9A9A9A] mb-8">
           <Link href="/" className="hover:text-[#1A1A1A]">Home</Link>
           <span>/</span>
@@ -17,7 +17,7 @@ export default function PrivacyPolicyPage() {
 
         <div className="space-y-6 text-sm text-[#5C5C5C] leading-relaxed">
           <p>
-            <strong>URUVI DESIGNS</strong> respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website.
+            <strong>URVI DESIGNS</strong> respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website.
           </p>
 
           <h2 className="font-serif text-xl font-semibold text-[#1A1A1A] pt-4">1. Data We Collect</h2>

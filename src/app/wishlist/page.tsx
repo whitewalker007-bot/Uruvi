@@ -26,7 +26,7 @@ export default function WishlistPage() {
 
   return (
     <div className="bg-[#FAFAF8] min-h-screen py-12">
-      <div className="container-uruvi">
+      <div className="container-urvi">
         {/* Breadcrumbs */}
         <div className="flex items-center gap-2 text-xs text-[#9A9A9A] mb-8">
           <Link href="/" className="hover:text-[#1A1A1A]">Home</Link>

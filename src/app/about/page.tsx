@@ -5,7 +5,7 @@ import { FASHION_IMAGES } from "@/lib/utils";
 export default function AboutPage() {
   return (
     <div className="bg-[#FAFAF8] min-h-screen py-12">
-      <div className="container-uruvi max-w-5xl">
+      <div className="container-urvi max-w-5xl">
         {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-xs text-[#9A9A9A] mb-8">
           <Link href="/" className="hover:text-[#1A1A1A]">Home</Link>
@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="section-label">Brand Story</span>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-[#1A1A1A] mb-6">
-            The Story of Uruvi
+            The Story of Urvi
           </h1>
           <p className="text-base text-[#5C5C5C] leading-relaxed italic font-serif">
             &ldquo;Where contemporary design meets the timeless spirit of Indian fashion.&rdquo;
@@ -28,7 +28,7 @@ export default function AboutPage() {
         <div className="relative aspect-hero mb-16 overflow-hidden rounded-sm bg-[#F5F3EF]">
           <Image
             src={FASHION_IMAGES.about}
-            alt="Uruvi Designs Craftsmanship"
+            alt="Urvi Designs Craftsmanship"
             fill
             className="object-cover"
             priority
@@ -43,14 +43,14 @@ export default function AboutPage() {
               Rooted in Kerala, Crafted for Every Woman
             </h2>
             <p className="text-sm text-[#5C5C5C] leading-relaxed mb-4">
-              Born in the historic capital of Trivandrum, Kerala, Uruvi Designs emerged from a passion for authentic Indian textiles, handloom weaves, and modern tailoring.
+              Born in the historic capital of Trivandrum, Kerala, Urvi Designs emerged from a passion for authentic Indian textiles, handloom weaves, and modern tailoring.
             </p>
             <p className="text-sm text-[#5C5C5C] leading-relaxed">
               We believe fashion should feel like an extension of your own grace — effortlessly comfortable, rich in detail, and quietly luxurious.
             </p>
           </div>
           <div className="relative aspect-collection bg-[#F5F3EF] overflow-hidden">
-            <Image src={FASHION_IMAGES.editorial} alt="Uruvi Aesthetics" fill className="object-cover" />
+            <Image src={FASHION_IMAGES.editorial} alt="Urvi Aesthetics" fill className="object-cover" />
           </div>
         </div>
 

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ============================================================
-   URUVI DESIGNS — Global Styles
+   URVI DESIGNS — Global Styles
    ============================================================ */
 
 @layer base {
@@ -89,6 +89,7 @@
 
 @layer components {
   /* Container */
+  .container-urvi,
   .container-uruvi {
     width: 100%;
     max-width: 1400px;
@@ -99,6 +100,7 @@
   }
 
   @media (min-width: 640px) {
+    .container-urvi,
     .container-uruvi {
       padding-left: 1.5rem;
       padding-right: 1.5rem;
@@ -106,6 +108,7 @@
   }
 
   @media (min-width: 1024px) {
+    .container-urvi,
     .container-uruvi {
       padding-left: 2rem;
       padding-right: 2rem;
