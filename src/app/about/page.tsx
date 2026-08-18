@@ -14,7 +14,14 @@ export default function AboutPage() {
         </div>
 
         {/* Hero Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-16 flex flex-col items-center">
+          <Image
+            src="/logo.png"
+            alt="Urvi Designs Logo"
+            width={64}
+            height={64}
+            className="w-16 h-16 object-contain rounded-full mb-4 shadow-sm"
+          />
           <span className="section-label">Brand Story</span>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-[#1A1A1A] mb-6">
             The Story of Urvi

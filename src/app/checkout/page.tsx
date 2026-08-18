@@ -66,8 +66,17 @@ export default function CheckoutPage() {
       <div className="container-urvi">
         {/* Header */}
         <div className="flex items-center justify-between pb-6 mb-8 border-b border-[#E8E4DC]">
-          <Link href="/" className="font-serif text-2xl font-semibold text-[#1A1A1A]">
-            URVI DESIGNS
+          <Link href="/" className="flex items-center gap-3 group">
+            <Image
+              src="/logo.png"
+              alt="Urvi Designs Logo"
+              width={40}
+              height={40}
+              className="w-10 h-10 object-contain rounded-full transition-transform duration-300 group-hover:scale-105"
+            />
+            <span className="font-serif text-2xl font-semibold text-[#1A1A1A] group-hover:text-[#C9A84C] transition-colors">
+              URVI DESIGNS
+            </span>
           </Link>
           <div className="flex items-center gap-1 text-xs text-[#5C5C5C]">
             <Lock size={14} className="text-[#C9A84C]" /> Secure Checkout

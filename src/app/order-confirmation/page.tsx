@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { CheckCircle2, Package, ArrowRight, Phone, Mail } from "lucide-react";
 
 interface OrderConfirmationProps {
@@ -11,6 +12,15 @@ export default async function OrderConfirmationPage({ searchParams }: OrderConfi
   return (
     <div className="bg-[#FAFAF8] min-h-screen py-16">
       <div className="container-urvi max-w-xl text-center">
+        <div className="flex items-center justify-center gap-3 mb-6">
+          <Image
+            src="/logo.png"
+            alt="Urvi Designs Logo"
+            width={56}
+            height={56}
+            className="w-14 h-14 object-contain rounded-full shadow-sm"
+          />
+        </div>
         <div className="w-16 h-16 bg-[#2D7D46]/10 rounded-full flex items-center justify-center mx-auto mb-6 text-[#2D7D46]">
           <CheckCircle2 size={36} />
         </div>
