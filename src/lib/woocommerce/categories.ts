@@ -46,4 +46,6 @@ export const CATEGORY_MAP: Record<string, { label: string; icon: string }> = {
   tops: { label: "Tops", icon: "👕" },
   "bottom-wear": { label: "Bottom Wear", icon: "👖" },
   "occasion-wear": { label: "Occasion Wear", icon: "🌟" },
+  mens: { label: "Men's Collection", icon: "👔" },
+  "kasavu-combos": { label: "Kasavu Combo Sets", icon: "✨" },
 };

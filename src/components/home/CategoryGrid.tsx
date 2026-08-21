@@ -5,6 +5,7 @@ import Image from "next/image";
 import { FASHION_IMAGES } from "@/lib/utils";
 
 const CATEGORIES = [
+  { label: "Men's Collection 👔", slug: "mens", image: "/images/mens/mens-combo-1.jpg" },
   { label: "Dresses", slug: "dresses", image: FASHION_IMAGES.category1 },
   { label: "Kurtas", slug: "kurtas", image: FASHION_IMAGES.category2 },
   { label: "Kurta Sets", slug: "kurta-sets", image: FASHION_IMAGES.collection1 },
@@ -12,7 +13,6 @@ const CATEGORIES = [
   { label: "Co-ord Sets", slug: "co-ord-sets", image: FASHION_IMAGES.collection2 },
   { label: "Tops", slug: "tops", image: FASHION_IMAGES.category4 },
   { label: "Bottom Wear", slug: "bottom-wear", image: FASHION_IMAGES.collection3 },
-  { label: "Occasion Wear", slug: "occasion-wear", image: FASHION_IMAGES.product1 },
 ];
 
 export default function CategoryGrid() {

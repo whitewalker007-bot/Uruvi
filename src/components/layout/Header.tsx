@@ -18,6 +18,17 @@ import { cn } from "@/lib/utils";
 const NAV_ITEMS = [
   { label: "Home", href: "/" },
   {
+    label: "Men",
+    href: "/mens",
+    mega: false,
+    sub: [
+      { label: "Men's Collection", href: "/mens" },
+      { label: "Mundu & Shirt Combos", href: "/mens" },
+      { label: "Kasavu Sets", href: "/mens" },
+      { label: "Theyyam Art Kurta", href: "/products/black-theyyam-art-kurta-graphic-mundu-set" },
+    ],
+  },
+  {
     label: "Shop",
     href: "/shop",
     mega: true,
@@ -26,6 +37,7 @@ const NAV_ITEMS = [
         heading: "All Products",
         links: [
           { label: "All Products", href: "/shop" },
+          { label: "Men's Wear", href: "/mens" },
           { label: "New Arrivals", href: "/new-arrivals" },
           { label: "Best Sellers", href: "/shop?sort=popularity" },
         ],
@@ -33,6 +45,7 @@ const NAV_ITEMS = [
       {
         heading: "Categories",
         links: [
+          { label: "Men's Collection", href: "/mens" },
           { label: "Dresses", href: "/shop/dresses" },
           { label: "Kurtas", href: "/shop/kurtas" },
           { label: "Kurta Sets", href: "/shop/kurta-sets" },
@@ -49,6 +62,7 @@ const NAV_ITEMS = [
     href: "/shop",
     mega: false,
     sub: [
+      { label: "Men's Collection 👔", href: "/mens" },
       { label: "Dresses", href: "/shop/dresses" },
       { label: "Kurtas", href: "/shop/kurtas" },
       { label: "Kurta Sets", href: "/shop/kurta-sets" },
@@ -63,6 +77,7 @@ const NAV_ITEMS = [
     href: "/collections",
     mega: false,
     sub: [
+      { label: "Men's Ethnic Edit", href: "/mens" },
       { label: "New Collection", href: "/collections/new" },
       { label: "Festive Edit", href: "/collections/festive" },
       { label: "Everyday Edit", href: "/collections/everyday" },

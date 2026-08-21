@@ -1,5 +1,6 @@
 import { wooFetch } from "./client";
 import type { WooProduct, ProductFilters } from "./types";
+import { MENS_PRODUCTS } from "@/lib/mensData";
 
 // ============================================================
 // Products API
@@ -80,6 +81,9 @@ export async function getProducts(filters: ProductFilters = {}): Promise<{
 }
 
 export async function getProductBySlug(slug: string): Promise<WooProduct | null> {
+  const mensMatch = MENS_PRODUCTS.find((p) => p.slug === slug);
+  if (mensMatch) return mensMatch;
+
   try {
     const products = await wooFetch<WooProduct[]>("products", {}, { slug });
     return products[0] || null;

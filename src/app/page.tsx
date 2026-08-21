@@ -1,6 +1,7 @@
 import Hero from "@/components/home/Hero";
 import FeaturedCollections from "@/components/home/FeaturedCollections";
 import NewArrivals from "@/components/home/NewArrivals";
+import MensSection from "@/components/home/MensSection";
 import CategoryGrid from "@/components/home/CategoryGrid";
 import EditorialSection from "@/components/home/EditorialSection";
 import BestSellers from "@/components/home/BestSellers";
@@ -13,6 +14,7 @@ export default function HomePage() {
     <>
       <Hero />
       <FeaturedCollections />
+      <MensSection />
       <NewArrivals />
       <CategoryGrid />
       <EditorialSection />

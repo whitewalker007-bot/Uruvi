@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 
 const CATEGORIES = [
   { label: "All Products", slug: "" },
+  { label: "Men's Collection", slug: "mens" },
   { label: "Dresses", slug: "dresses" },
   { label: "Kurtas", slug: "kurtas" },
   { label: "Kurta Sets", slug: "kurta-sets" },

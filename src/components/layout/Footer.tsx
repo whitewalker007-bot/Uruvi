@@ -4,6 +4,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 const FOOTER_LINKS = {
   shop: [
+    { label: "Men's Collection", href: "/mens" },
     { label: "New Arrivals", href: "/new-arrivals" },
     { label: "Best Sellers", href: "/shop?sort=popularity" },
     { label: "Dresses", href: "/shop/dresses" },

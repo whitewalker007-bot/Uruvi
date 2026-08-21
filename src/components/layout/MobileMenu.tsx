@@ -9,10 +9,20 @@ import { cn } from "@/lib/utils";
 const MENU_ITEMS = [
   { label: "Home", href: "/" },
   {
+    label: "Men's Collection 👔",
+    href: "/mens",
+    sub: [
+      { label: "View All Men's Wear", href: "/mens" },
+      { label: "Kasavu Mundu & Shirt Combos", href: "/mens" },
+      { label: "Heritage Art Kurtas", href: "/mens" },
+    ],
+  },
+  {
     label: "Shop",
     href: "/shop",
     sub: [
       { label: "All Products", href: "/shop" },
+      { label: "Men's Wear", href: "/mens" },
       { label: "New Arrivals", href: "/new-arrivals" },
       { label: "Best Sellers", href: "/shop?sort=popularity" },
     ],
@@ -21,6 +31,7 @@ const MENU_ITEMS = [
     label: "Categories",
     href: "/shop",
     sub: [
+      { label: "Men's Collection", href: "/mens" },
       { label: "Dresses", href: "/shop/dresses" },
       { label: "Kurtas", href: "/shop/kurtas" },
       { label: "Kurta Sets", href: "/shop/kurta-sets" },
@@ -34,6 +45,7 @@ const MENU_ITEMS = [
     label: "Collections",
     href: "/collections",
     sub: [
+      { label: "Men's Ethnic Edit", href: "/mens" },
       { label: "New Collection", href: "/collections/new" },
       { label: "Festive Edit", href: "/collections/festive" },
       { label: "Everyday Edit", href: "/collections/everyday" },
